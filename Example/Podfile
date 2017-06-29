@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SSSheetLayout_Example' do
+  pod 'SSSheetLayout', :path => '../'
+
+  target 'SSSheetLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
