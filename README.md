@@ -22,7 +22,7 @@ pod "SSSheetLayout"
 
 ## Author
 
-Macbook, du.d.ngo@vntrip.vn
+Ngô Đắc Du, ngodacdu92@gmail.com
 
 ## License
 
