@@ -1,0 +1,16 @@
+PODS:
+  - SSSheetLayout (0.1.0)
+
+DEPENDENCIES:
+  - SSSheetLayout (from `../`)
+
+EXTERNAL SOURCES:
+  SSSheetLayout:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SSSheetLayout: e24cf61770af42329b1f612593b26ac2670f5301
+
+PODFILE CHECKSUM: 60f779388afb21346e05fcc6156e22e14b1ae8d0
+
+COCOAPODS: 1.2.1

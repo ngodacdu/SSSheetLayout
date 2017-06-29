@@ -1,0 +1,22 @@
+{
+  "name": "SSSheetLayout",
+  "version": "0.1.0",
+  "summary": "A short description of SSSheetLayout.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Macbook/SSSheetLayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Macbook": "du.d.ngo@vntrip.vn"
+  },
+  "source": {
+    "git": "https://github.com/Macbook/SSSheetLayout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SSSheetLayout/Classes/**/*"
+}
