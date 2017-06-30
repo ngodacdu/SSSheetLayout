@@ -23,6 +23,30 @@ pod "SSSheetLayout"
 
 ## Usage
 
+1. Set collection view layout with custom type SSSheetLayout
+![Change layout type](https://github.com/ngodacdu/SSSheetLayout/blob/master/Screenshots/CustomLayout.png)
+
+2. Set datasource for collection view layout (SSSheetLayout)
+![Set Datasource](https://github.com/ngodacdu/SSSheetLayout/blob/master/Screenshots/DragDataSource.png)
+
+3. How to change size for collection view cell
+
+```ruby
+func collectionView(collectionView: UICollectionView, sizeForItem indexPath: IndexPath) -> CGSize {
+    if indexPath.row == 0 {
+        return CGSize(width: 100, height: 30)
+    }
+    return CGSize(width: 50, height: 30)
+}
+```
+
+4. How to keep dock when scroll to max, min offset
+```ruby
+func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    scrollView.keepDockOffset()
+}
+```
+
 ## Author
 
 Ngô Đắc Du, ngodacdu92@gmail.com
