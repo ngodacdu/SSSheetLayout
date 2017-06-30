@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/ngodacdu/SSSheetLayout'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = 'https://raw.githubusercontent.com/ngodacdu/SSSheetLayout/master/Screenshots/sheetlayout.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ngô Đắc Du' => 'ngodacdu92@gmail.com' }
   s.source           = { :git => 'https://github.com/ngodacdu/SSSheetLayout.git', :tag => s.version.to_s }
