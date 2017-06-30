@@ -10,11 +10,17 @@
 		1C44E60CCF48F0DACC9559BD /* Pods_SSSheetLayout_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5544CF5DA7FEE4BDDAD66F6D /* Pods_SSSheetLayout_Tests.framework */; };
 		2AA861E03EB591D9E820AAD9 /* Pods_SSSheetLayout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28369986141F1EB5B87598B /* Pods_SSSheetLayout_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		FA30A7941F06377C0090F151 /* CustomLayout.png in Resources */ = {isa = PBXBuildFile; fileRef = FA30A7911F06377C0090F151 /* CustomLayout.png */; };
+		FA30A7951F06377C0090F151 /* DragDataSource.png in Resources */ = {isa = PBXBuildFile; fileRef = FA30A7921F06377C0090F151 /* DragDataSource.png */; };
+		FA30A7961F06377C0090F151 /* sheetlayout.png in Resources */ = {isa = PBXBuildFile; fileRef = FA30A7931F06377C0090F151 /* sheetlayout.png */; };
+		FACABBB81F05E4AB00F2F978 /* SSSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACABBB71F05E4AB00F2F978 /* SSSheetViewController.swift */; };
+		FACABBBB1F05E4C300F2F978 /* SLSheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACABBB91F05E4C300F2F978 /* SLSheetCell.swift */; };
+		FACABBBC1F05E4C300F2F978 /* SLSheetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FACABBBA1F05E4C300F2F978 /* SLSheetCell.xib */; };
+		FACABBBE1F05EBE500F2F978 /* SSDrugModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACABBBD1F05EBE500F2F978 /* SSDrugModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +40,6 @@
 		607FACD01AFB9204008FA782 /* SSSheetLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSSheetLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		CF2836D035D64D3D2D2AB601 /* SSSheetLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSSheetLayout.podspec; path = ../SSSheetLayout.podspec; sourceTree = "<group>"; };
 		E5C6DFF7C694288C64689B36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F7108107CAD6FB46466B29C7 /* Pods-SSSheetLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSheetLayout_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSSheetLayout_Example/Pods-SSSheetLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FA30A7911F06377C0090F151 /* CustomLayout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomLayout.png; sourceTree = "<group>"; };
+		FA30A7921F06377C0090F151 /* DragDataSource.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DragDataSource.png; sourceTree = "<group>"; };
+		FA30A7931F06377C0090F151 /* sheetlayout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sheetlayout.png; sourceTree = "<group>"; };
+		FACABBB71F05E4AB00F2F978 /* SSSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSSheetViewController.swift; sourceTree = "<group>"; };
+		FACABBB91F05E4C300F2F978 /* SLSheetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLSheetCell.swift; sourceTree = "<group>"; };
+		FACABBBA1F05E4C300F2F978 /* SLSheetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLSheetCell.xib; sourceTree = "<group>"; };
+		FACABBBD1F05EBE500F2F978 /* SSDrugModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDrugModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				FA30A7901F06377C0090F151 /* Screenshots */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for SSSheetLayout */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -105,8 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				FACABBB61F05E45900F2F978 /* SheetLayout */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -157,6 +169,29 @@
 				5544CF5DA7FEE4BDDAD66F6D /* Pods_SSSheetLayout_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA30A7901F06377C0090F151 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				FA30A7911F06377C0090F151 /* CustomLayout.png */,
+				FA30A7921F06377C0090F151 /* DragDataSource.png */,
+				FA30A7931F06377C0090F151 /* sheetlayout.png */,
+			);
+			name = Screenshots;
+			path = ../Screenshots;
+			sourceTree = "<group>";
+		};
+		FACABBB61F05E45900F2F978 /* SheetLayout */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				FACABBB71F05E4AB00F2F978 /* SSSheetViewController.swift */,
+				FACABBB91F05E4C300F2F978 /* SLSheetCell.swift */,
+				FACABBBA1F05E4C300F2F978 /* SLSheetCell.xib */,
+				FACABBBD1F05EBE500F2F978 /* SSDrugModel.swift */,
+			);
+			path = SheetLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +284,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA30A7961F06377C0090F151 /* sheetlayout.png in Resources */,
+				FA30A7951F06377C0090F151 /* DragDataSource.png in Resources */,
+				FACABBBC1F05E4C300F2F978 /* SLSheetCell.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				FA30A7941F06377C0090F151 /* CustomLayout.png in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,7 +401,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				FACABBBB1F05E4C300F2F978 /* SLSheetCell.swift in Sources */,
+				FACABBBE1F05EBE500F2F978 /* SSDrugModel.swift in Sources */,
+				FACABBB81F05E4AB00F2F978 /* SSSheetViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +433,7 @@
 				607FACDA1AFB9204008FA782 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {

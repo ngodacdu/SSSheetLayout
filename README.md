@@ -5,11 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/SSSheetLayout.svg?style=flat)](http://cocoapods.org/pods/SSSheetLayout)
 [![Platform](https://img.shields.io/cocoapods/p/SSSheetLayout.svg?style=flat)](http://cocoapods.org/pods/SSSheetLayout)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+- This project is written for custom collection view layout like sheet form
+- In fact, many applications need to show view like sheet, so this project focus to make the collection view scrollable horizontal and vertical. The main feature is keep top and left dock
 
 ## Requirements
+* iOS 8.0+
+* Xcode 8.0
 
 ## Installation
 
@@ -19,6 +20,8 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "SSSheetLayout"
 ```
+
+## Usage
 
 ## Author
 

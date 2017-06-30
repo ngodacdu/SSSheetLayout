@@ -1,5 +1,5 @@
 PODS:
-  - SSSheetLayout (0.1.0)
+  - SSSheetLayout (1.0.0)
 
 DEPENDENCIES:
   - SSSheetLayout (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SSSheetLayout: e24cf61770af42329b1f612593b26ac2670f5301
+  SSSheetLayout: f2cd0716ae3c0a858331ea23ef25688153d0021b
 
 PODFILE CHECKSUM: 60f779388afb21346e05fcc6156e22e14b1ae8d0
 

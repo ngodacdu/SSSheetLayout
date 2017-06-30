@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## SSSheetLayout
 
-Copyright (c) 2017 Macbook <du.d.ngo@vntrip.vn>
+Copyright (c) 2017 Ngô Đắc Du <ngodacdu92@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

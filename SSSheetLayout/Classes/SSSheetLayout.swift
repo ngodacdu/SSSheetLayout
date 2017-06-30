@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objc protocol SSSheetLayoutDataSource: class {
+@objc public protocol SSSheetLayoutDataSource: class {
     
     func collectionView(collectionView: UICollectionView, sizeForItem indexPath: IndexPath) -> CGSize
     
@@ -55,10 +55,18 @@ class SSSheetLayout: UICollectionViewLayout {
                 if let attributes = layoutAttributesForItem(at: indexPath) {
                     var frame = attributes.frame
                     if section == 0 {
-                        frame.origin.y = collectionView.contentOffset.y
+                        if collectionView.contentOffset.y > 0 {
+                            frame.origin.y = collectionView.contentOffset.y
+                        } else {
+                            frame.origin.y = 0
+                        }
                     }
                     if item == 0 {
-                        frame.origin.x = collectionView.contentOffset.x
+                        if collectionView.contentOffset.x > 0 {
+                            frame.origin.x = collectionView.contentOffset.x
+                        } else {
+                            frame.origin.x = 0
+                        }
                     }
                     attributes.frame = frame
                 }
@@ -87,7 +95,7 @@ class SSSheetLayout: UICollectionViewLayout {
                     if let size = dataSource?.collectionView(collectionView: collectionView, sizeForItem: indexPath) {
                         return size
                     }
-                    return CGSize.zero
+                    return CGSize(width: 50.0, height: 50.0)
                 }
                 let itemAttibute = UICollectionViewLayoutAttributes(forCellWith: indexPath)
                 itemAttibute.frame = CGRect(x: xOffset, y: yOffset, width: itemSize.width, height: itemSize.height).integral

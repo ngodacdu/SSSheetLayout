@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FFBF4F5848A6D5ACC23C34B3C4E7EB6 /* SSScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830D38DC5AC6FA5D687EF3B36637ABC4 /* SSScrollViewExtension.swift */; };
 		3B8EC3D885D776D939D7750B755E8DA5 /* Pods-SSSheetLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AA0AE9BDBECE61BCCBB6BB8682C5EDF /* Pods-SSSheetLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6616A6ED80A854948D52F353E95CB95D /* SSSheetLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C26DF9FDC007DA45B363266C30BE00 /* SSSheetLayout-dummy.m */; };
 		7AD54BD9ECC50EEC1BDE16596AB0B2DF /* SSSheetLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9574E9F84967115DF3368554B2B254DA /* SSSheetLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0B4D9660863646369313288B02B8437 /* SSSheetLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B8B7F8BFFD25C86EB26D92C3B766E /* SSSheetLayout.swift */; };
 		A53A42708511B0BBEEF2ABCDF715E041 /* Pods-SSSheetLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6C02B6A02B45D87F338DCD1C5CAC8B /* Pods-SSSheetLayout_Tests-dummy.m */; };
+		B4105C868237B134F2E6DFA6A992D675 /* SSSheetLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C26DF9FDC007DA45B363266C30BE00 /* SSSheetLayout-dummy.m */; };
 		B7E632C011FEC5AAD8FF9AD45CAB1E7E /* Pods-SSSheetLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 087A05798D2B1E01469CCD6287D3EF8B /* Pods-SSSheetLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE3EC08D8B11C706C2B0511DCE3FBDA4 /* Pods-SSSheetLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B31155A8C71781DA08175389639EB066 /* Pods-SSSheetLayout_Example-dummy.m */; };
+		C0A04B90FFC773242B4057C23C6EF76C /* SSSheetLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2EA360840197CBB49CFD827B58B70D /* SSSheetLayout.swift */; };
 		C7102E27CF87B7F64981DC7A60522E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E33C36E2AEF8E7D0B8F8D424A24BEB42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E5311FDEC020198079BAE13270DB1D26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -30,7 +31,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		047B8B7F8BFFD25C86EB26D92C3B766E /* SSSheetLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SSSheetLayout.swift; sourceTree = "<group>"; };
 		087A05798D2B1E01469CCD6287D3EF8B /* Pods-SSSheetLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSSheetLayout_Example-umbrella.h"; sourceTree = "<group>"; };
 		0919572B8E4B122089DF9E9557D89CF1 /* Pods-SSSheetLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSSheetLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		133F20ECA0EBCBCB4D6A26C3AD995BDF /* Pods-SSSheetLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSSheetLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -40,6 +40,7 @@
 		2AA0AE9BDBECE61BCCBB6BB8682C5EDF /* Pods-SSSheetLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSSheetLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2EEDDFEEDCF8764FE029A71F6E6BAF3E /* SSSheetLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSSheetLayout.xcconfig; sourceTree = "<group>"; };
 		33960E843B32AC3D0DE1D6D2688316EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2EA360840197CBB49CFD827B58B70D /* SSSheetLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SSSheetLayout.swift; sourceTree = "<group>"; };
 		4210E9E7639D8EF713778C20F5F28EED /* Pods-SSSheetLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSSheetLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		534339D644BCDE00F59C3191D8FA49A9 /* Pods-SSSheetLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSSheetLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -49,6 +50,7 @@
 		75EC19C46D1EA93B64A1837AA75A9AA5 /* Pods-SSSheetLayout_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSSheetLayout_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7A1E7BE26DC47D41F3B5477F10135A41 /* Pods-SSSheetLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSSheetLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7C703B90298B35037AB25CDFA8D3E678 /* Pods-SSSheetLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSSheetLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
+		830D38DC5AC6FA5D687EF3B36637ABC4 /* SSScrollViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SSScrollViewExtension.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9574E9F84967115DF3368554B2B254DA /* SSSheetLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSSheetLayout-umbrella.h"; sourceTree = "<group>"; };
 		9C4031BDB1DF2366BA02CF67F9DCF315 /* Pods_SSSheetLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SSSheetLayout_Tests.framework; path = "Pods-SSSheetLayout_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +97,7 @@
 		197FB681D00FCB499AEA3463489A9647 /* SSSheetLayout */ = {
 			isa = PBXGroup;
 			children = (
-				C69F2535E631AEB64ECCD2829D6346F5 /* SSSheetLayout */,
+				513A68FAD57FE9412F6F654944A55B5D /* SSSheetLayout */,
 				8AB28772E9EFBE738D36EE9CDEA92ABC /* Support Files */,
 			);
 			name = SSSheetLayout;
@@ -120,15 +122,6 @@
 			path = "Target Support Files/Pods-SSSheetLayout_Example";
 			sourceTree = "<group>";
 		};
-		4169C76E8F0BF9199F4E45DBFA3E6739 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				047B8B7F8BFFD25C86EB26D92C3B766E /* SSSheetLayout.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		4E4CFD810B6F0CD176A3F2A4C835E7EB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +129,15 @@
 				842D6457A56CEF3218AACA6F66DFECB1 /* Pods-SSSheetLayout_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		513A68FAD57FE9412F6F654944A55B5D /* SSSheetLayout */ = {
+			isa = PBXGroup;
+			children = (
+				89EAB0F68E0F806C098775F66EFE4BB6 /* Classes */,
+			);
+			name = SSSheetLayout;
+			path = SSSheetLayout;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -165,6 +167,16 @@
 			);
 			name = "Pods-SSSheetLayout_Tests";
 			path = "Target Support Files/Pods-SSSheetLayout_Tests";
+			sourceTree = "<group>";
+		};
+		89EAB0F68E0F806C098775F66EFE4BB6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				830D38DC5AC6FA5D687EF3B36637ABC4 /* SSScrollViewExtension.swift */,
+				3D2EA360840197CBB49CFD827B58B70D /* SSSheetLayout.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		8AB28772E9EFBE738D36EE9CDEA92ABC /* Support Files */ = {
@@ -205,15 +217,6 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C69F2535E631AEB64ECCD2829D6346F5 /* SSSheetLayout */ = {
-			isa = PBXGroup;
-			children = (
-				4169C76E8F0BF9199F4E45DBFA3E6739 /* Classes */,
-			);
-			name = SSSheetLayout;
-			path = SSSheetLayout;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -293,7 +296,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62C2297DFCDADA9848AC518FB4CAEF08 /* Build configuration list for PBXNativeTarget "SSSheetLayout" */;
 			buildPhases = (
-				9C0543DBB3C90331655508305897974C /* Sources */,
+				06CFA8CA0C232FB24357CE697994FE45 /* Sources */,
 				05897B749C183716BA9FC2F383868794 /* Frameworks */,
 				2FE4BCCC9D90DCFD85694B20C7138369 /* Headers */,
 			);
@@ -335,12 +338,13 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9C0543DBB3C90331655508305897974C /* Sources */ = {
+		06CFA8CA0C232FB24357CE697994FE45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6616A6ED80A854948D52F353E95CB95D /* SSSheetLayout-dummy.m in Sources */,
-				A0B4D9660863646369313288B02B8437 /* SSSheetLayout.swift in Sources */,
+				1FFBF4F5848A6D5ACC23C34B3C4E7EB6 /* SSScrollViewExtension.swift in Sources */,
+				B4105C868237B134F2E6DFA6A992D675 /* SSSheetLayout-dummy.m in Sources */,
+				C0A04B90FFC773242B4057C23C6EF76C /* SSSheetLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
